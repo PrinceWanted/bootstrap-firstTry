@@ -45,6 +45,38 @@ body{
     padding: 10px;
 }
 
-#accordion{
+#accordion, span{
     cursor: pointer;
+}
+
+.carousel {
+    background:#512DA8;
+}
+
+.carousel-item {
+  height: 300px;
+}
+
+.carousel-item img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-height: 300px;
+}
+
+.btn {
+    margin-top: 20px;
+}
+
+#btnradio1:checked + label {
+    background: darkred;
+}
+#btnradio1 {
+    visibility: hidden;
+}
+#btnradio2:checked + label {
+    background: darkgreen;
+}
+#btnradio2 {
+    visibility: hidden;
 }
